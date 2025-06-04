@@ -40,13 +40,14 @@ The entire application is handled in a single class that organizes the UI and lo
 
 ## 🔍 Java Concepts Demonstrated
 
-Concept	Usage
-GUI Programming	Implemented using Swing components (JFrame, JTextField, etc.)
-Event Handling	Button clicks handled with ActionListener
-Timer & Real-Time	javax.swing.Timer for updating the clock every second
-Data Structures	ArrayList used to manage dynamic to-do items
-Layout Management	BorderLayout, FlowLayout used for organizing components
-Input Validation	Dialogs shown with JOptionPane for empty input or invalid actions
+| Concept           | Usage                                                                 |
+|-------------------|------------------------------------------------------------------------|
+| GUI Programming   | Implemented using Swing components (`JFrame`, `JTextField`, etc.)     |
+| Event Handling    | Button clicks handled with `ActionListener`                           |
+| Timer & Real-Time | `javax.swing.Timer` for updating the clock every second               |
+| Data Structures   | `ArrayList` used to manage dynamic to-do items                         |
+| Layout Management | `BorderLayout`, `FlowLayout` used for organizing components           |
+| Input Validation  | Dialogs shown with `JOptionPane` for empty input or invalid actions   |
 
 ## 📈 Future Improvements
 

@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class TodoListApp {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("할 일 리스트");
+        JFrame frame = new JFrame("To-do List");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 350);
         frame.setLayout(new BorderLayout());
@@ -17,10 +17,10 @@ public class TodoListApp {
         JPanel topPanel = new JPanel(new BorderLayout());
         JPanel inputPanel = new JPanel(new BorderLayout());
 
-        JLabel label = new JLabel("할 일을 입력하세요:");
+        JLabel label = new JLabel("Enter your task:");
         JTextField inputField = new JTextField();
-        JButton addButton = new JButton("추가");
-        JButton deleteButton = new JButton("삭제");
+        JButton addButton = new JButton("Add");
+        JButton deleteButton = new JButton("Delete");
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         buttonPanel.add(addButton);
@@ -42,14 +42,14 @@ public class TodoListApp {
         Timer timer = new Timer(1000, e -> {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             String currentTime = sdf.format(new Date());
-            timeLabel.setText("현재 시각: " + currentTime);
+            timeLabel.setText("current time: " + currentTime);
         });
         timer.start();
 
         addButton.addActionListener(e -> {
             String text = inputField.getText().trim();
             if (text.isEmpty()) {
-                JOptionPane.showMessageDialog(frame, "할 일을 입력해주세요", "경고", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(frame, "Please enter your task", "WARNING", JOptionPane.WARNING_MESSAGE);
                 return;
             }
 
@@ -60,7 +60,7 @@ public class TodoListApp {
 
         deleteButton.addActionListener(e -> {
             if (todoList.isEmpty()) {
-                JOptionPane.showMessageDialog(frame, "삭제할 항목이 없습니다", "경고", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(frame, "There is nothing to delete", "WARNING", JOptionPane.WARNING_MESSAGE);
                 return;
             }
 

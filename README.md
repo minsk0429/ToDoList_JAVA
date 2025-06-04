@@ -1,4 +1,4 @@
-# ToDoList_based_on_JAVA
+# 🗒️ ToDoList_based_on_JAVA
 This is a Java-based task management memo application implemented using Swing. It features a simple and intuitive GUI that allows users to manage to-do items in real-time. This project demonstrates core Java GUI programming concepts including event-driven programming, dynamic UI updates, and time-based functionalities.
 
 ## 📌 Features
@@ -65,11 +65,11 @@ The entire application is handled in a single class that organizes the UI and lo
 
 ## ✅ How to Run
 
-	1.	Clone the repository or download the source file
-	2.	Compile the Java file:
+	1. Clone the repository or download the source file
+	2. Compile the Java file:
 
 javac TodoListApp.java
 
-	3.	Run the program:
+	3. Run the program:
 
 java TodoListApp

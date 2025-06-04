@@ -16,13 +16,13 @@ This is a Java-based task management memo application implemented using Swing. I
 
 ## 🧱 Code Structure
 
-### 'TodoListApp (Main Class)'
+### `TodoListApp` (Main Class)
 
 The entire application is handled in a single class that organizes the UI and logic.
 
 ---
 
-### 'UI Components':
+### `UI Components`:
 - JFrame: Main application window
 - JTextField: Input field for tasks
 - JTextArea: Area displaying to-do items
@@ -31,7 +31,7 @@ The entire application is handled in a single class that organizes the UI and lo
 
 ---
 
-### 'Logic Components':
+### `Logic Components`:
 - ArrayList<String>: Stores all to-do tasks dynamically
 - Timer: Updates current time every second
 - ActionListener: Handles button click events

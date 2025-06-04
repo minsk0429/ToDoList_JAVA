@@ -1,6 +1,8 @@
 # ToDoList_based_on_JAVA
 This is a Java-based task management memo application implemented using Swing. It features a simple and intuitive GUI that allows users to manage to-do items in real-time. This project demonstrates core Java GUI programming concepts including event-driven programming, dynamic UI updates, and time-based functionalities.
 
+---
+
 ## 📌 Features
 
 - Add new to-do items via input field
@@ -10,11 +12,15 @@ This is a Java-based task management memo application implemented using Swing. I
 - Input validation and warning dialogs
 - Simple and clean UI with layout managers
 
+---
+
 ## 🧱 Code Structure
 
 ### TodoListApp (Main Class)
 
 The entire application is handled in a single class that organizes the UI and logic.
+
+---
 
 ### UI Components:
 - JFrame: Main application window
@@ -23,11 +29,15 @@ The entire application is handled in a single class that organizes the UI and lo
 - JButton: Buttons for adding and deleting tasks
 - JLabel: Real-time clock display
 
+---
+
 ### Logic Components:
 - ArrayList<String>: Stores all to-do tasks dynamically
 - Timer: Updates current time every second
 - ActionListener: Handles button click events
 - JOptionPane: Displays warning dialogs when necessary
+
+---
 
 ## 🔄 Example Output
 
@@ -37,6 +47,8 @@ The entire application is handled in a single class that organizes the UI and lo
 - Java 프로젝트 정리
 
 현재 시각: 2025-06-04 14:25:17
+
+---
 
 ## 🔍 Java Concepts Demonstrated
 
@@ -49,6 +61,8 @@ The entire application is handled in a single class that organizes the UI and lo
 | Layout Management | `BorderLayout`, `FlowLayout` used for organizing components           |
 | Input Validation  | Dialogs shown with `JOptionPane` for empty input or invalid actions   |
 
+---
+
 ## 📈 Future Improvements
 
 - Allow editing and marking tasks as completed
@@ -58,10 +72,14 @@ The entire application is handled in a single class that organizes the UI and lo
 - Add GUI theme customization or dark mode
 - Add keyboard shortcuts (e.g., Enter to add)
 
+---
+
 ## 📎 Requirements
 
 - Java 8 or higher
 - Any IDE (e.g., IntelliJ, Eclipse) or command-line environment
+
+---
 
 ## ✅ How to Run
 

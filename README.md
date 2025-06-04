@@ -3,12 +3,12 @@ This is a Java-based task management memo application implemented using Swing. I
 
 ## 📌 Features
 
-	-	Add new to-do items via input field
-	-	Delete the most recently added task
-	-	Display current to-do list in a text area
-	-	Show real-time clock updated every second
-	-	Input validation and warning dialogs
-	-	Simple and clean UI with layout managers
+- Add new to-do items via input field
+- Delete the most recently added task
+- Display current to-do list in a text area
+- Show real-time clock updated every second
+- Input validation and warning dialogs
+- Simple and clean UI with layout managers
 
 ## 🧱 Code Structure
 
@@ -17,17 +17,17 @@ This is a Java-based task management memo application implemented using Swing. I
 The entire application is handled in a single class that organizes the UI and logic.
 
 ### UI Components:
-	-	JFrame: Main application window
-	-	JTextField: Input field for tasks
-	-	JTextArea: Area displaying to-do items
-	-	JButton: Buttons for adding and deleting tasks
-	-	JLabel: Real-time clock display
+- JFrame: Main application window
+- JTextField: Input field for tasks
+- JTextArea: Area displaying to-do items
+- JButton: Buttons for adding and deleting tasks
+- JLabel: Real-time clock display
 
 ### Logic Components:
-	-	ArrayList<String>: Stores all to-do tasks dynamically
-	-	Timer: Updates current time every second
-	-	ActionListener: Handles button click events
-	-	JOptionPane: Displays warning dialogs when necessary
+- ArrayList<String>: Stores all to-do tasks dynamically
+- Timer: Updates current time every second
+- ActionListener: Handles button click events
+- JOptionPane: Displays warning dialogs when necessary
 
 ## 🔄 Example Output
 
@@ -51,17 +51,17 @@ The entire application is handled in a single class that organizes the UI and lo
 
 ## 📈 Future Improvements
 
-	-	Allow editing and marking tasks as completed
-	-	Save and load tasks using file I/O
-	-	Use ArrayList<String> with filtering/search feature
-	-	Support for multi-line task descriptions
-	-	Add GUI theme customization or dark mode
-	-	Add keyboard shortcuts (e.g., Enter to add)
+- Allow editing and marking tasks as completed
+- Save and load tasks using file I/O
+- Use ArrayList<String> with filtering/search feature
+- Support for multi-line task descriptions
+- Add GUI theme customization or dark mode
+- Add keyboard shortcuts (e.g., Enter to add)
 
 ## 📎 Requirements
 
-	-	Java 8 or higher
-	-	Any IDE (e.g., IntelliJ, Eclipse) or command-line environment
+- Java 8 or higher
+- Any IDE (e.g., IntelliJ, Eclipse) or command-line environment
 
 ## ✅ How to Run
 

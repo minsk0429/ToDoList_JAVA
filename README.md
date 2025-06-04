@@ -41,12 +41,12 @@ The entire application is handled in a single class that organizes the UI and lo
 
 ## 🔄 Example Output
 
-할 일을 입력하세요: [ 자료구조 복습 ] [추가] [삭제]
+Enter your task: [ 자료구조 복습 ] [추가] [삭제]
 
 - 자료구조 복습
 - Java 프로젝트 정리
 
-현재 시각: 2025-06-04 14:25:17
+ current time: 2025-06-04 14:25:17
 
 ---
 

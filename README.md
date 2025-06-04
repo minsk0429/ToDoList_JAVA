@@ -41,10 +41,10 @@ The entire application is handled in a single class that organizes the UI and lo
 
 ## 🔄 Example Output
 
-Enter your task: [ 자료구조 복습 ] [추가] [삭제]
+Enter your task: [ Data structure review ] [Add] [Delete]
 
-- 자료구조 복습
-- Java 프로젝트 정리
+- Data structure review
+- Java project completion
 
  current time: 2025-06-04 14:25:17
 

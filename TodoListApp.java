@@ -37,7 +37,7 @@ public class TodoListApp {
 
         JLabel timeLabel = new JLabel();
         timeLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        timeLabel.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
+        timeLabel.setFont(new Font("SansSerif", Font.PLAIN, 12));
 
         Timer timer = new Timer(1000, e -> {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

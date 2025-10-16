@@ -91,10 +91,10 @@ Enter your task: [ 자료구조 복습 ] [추가] [삭제]
 
 ```bash
 javac TodoListApp.java
-
-	3.	프로그램을 실행합니다:
-
+```
+3. 프로그램을 실행합니다:
+```bash
 java TodoListApp
-
+```
 ---
 

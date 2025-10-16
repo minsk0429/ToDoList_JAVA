@@ -1,93 +1,100 @@
-# ToDoList_based_on_JAVA
-This is a Java-based task management memo application implemented using Swing. It features a simple and intuitive GUI that allows users to manage to-do items in real-time. This project demonstrates core Java GUI programming concepts including event-driven programming, dynamic UI updates, and time-based functionalities.
+# 🗒️ JAVA 기반 ToDoList 메모 애플리케이션
+
+이 프로젝트는 **Java Swing**을 이용해 구현한 **할 일 관리 메모 애플리케이션**입니다.  
+직관적이고 간단한 GUI를 통해 실시간으로 할 일을 추가·삭제·확인할 수 있습니다.  
+이 프로젝트는 **이벤트 기반 프로그래밍**, **동적 UI 업데이트**, **시간 기반 기능 구현** 등  
+자바 GUI 프로그래밍의 핵심 개념을 보여줍니다.
 
 ---
 
-## 📌 Features
+## 📌 주요 기능
 
-- Add new to-do items via input field
-- Delete the most recently added task
-- Display current to-do list in a text area
-- Show real-time clock updated every second
-- Input validation and warning dialogs
-- Simple and clean UI with layout managers
-
----
-
-## 🧱 Code Structure
-
-### `TodoListApp` (Main Class)
-
-The entire application is handled in a single class that organizes the UI and logic.
+- 입력 필드를 통한 새로운 할 일 추가  
+- 가장 최근에 추가된 작업 삭제  
+- 현재 할 일 목록을 텍스트 영역에 표시  
+- 1초 단위로 갱신되는 실시간 시계 표시  
+- 입력값 검증 및 경고 다이얼로그 표시  
+- 레이아웃 매니저를 활용한 깔끔한 UI 구성  
 
 ---
 
-### `UI Components`:
-- JFrame: Main application window
-- JTextField: Input field for tasks
-- JTextArea: Area displaying to-do items
-- JButton: Buttons for adding and deleting tasks
-- JLabel: Real-time clock display
+## 🧱 코드 구조
+
+### `TodoListApp` (메인 클래스)
+
+전체 애플리케이션 로직과 UI 구성을 하나의 클래스에서 처리합니다.
 
 ---
 
-### `Logic Components`:
-- ArrayList<String>: Stores all to-do tasks dynamically
-- Timer: Updates current time every second
-- ActionListener: Handles button click events
-- JOptionPane: Displays warning dialogs when necessary
+### 🪟 **UI 구성 요소**
+- **JFrame**: 메인 애플리케이션 창  
+- **JTextField**: 할 일 입력 필드  
+- **JTextArea**: 현재 할 일 목록 출력 영역  
+- **JButton**: 할 일 추가 및 삭제 버튼  
+- **JLabel**: 실시간 시계 표시  
 
 ---
 
-## 🔄 Example Output
-
-Enter your task: [ Data structure review ] [Add] [Delete]
-
-- Data structure review
-- Java project completion
-
- current time: 2025-06-04 14:25:17
+### ⚙️ **로직 구성 요소**
+- **ArrayList\<String\>**: 모든 할 일 항목을 동적으로 저장  
+- **Timer**: 매초 현재 시간을 갱신  
+- **ActionListener**: 버튼 클릭 이벤트 처리  
+- **JOptionPane**: 입력값이 비었거나 잘못된 경우 경고창 표시  
 
 ---
 
-## 🔍 Java Concepts Demonstrated
+## 🔄 실행 예시 출력
 
-| Concept           | Usage                                                                 |
-|-------------------|------------------------------------------------------------------------|
-| GUI Programming   | Implemented using Swing components (`JFrame`, `JTextField`, etc.)     |
-| Event Handling    | Button clicks handled with `ActionListener`                           |
-| Timer & Real-Time | `javax.swing.Timer` for updating the clock every second               |
-| Data Structures   | `ArrayList` used to manage dynamic to-do items                         |
-| Layout Management | `BorderLayout`, `FlowLayout` used for organizing components           |
-| Input Validation  | Dialogs shown with `JOptionPane` for empty input or invalid actions   |
+Enter your task: [ 자료구조 복습 ] [추가] [삭제]
+	•	자료구조 복습
+	•	자바 프로젝트 완성
+
+현재 시간: 2025-06-04 14:25:17
 
 ---
 
-## 📈 Future Improvements
+## 🔍 사용된 자바 개념
 
-- Allow editing and marking tasks as completed
-- Save and load tasks using file I/O
-- Use ArrayList<String> with filtering/search feature
-- Support for multi-line task descriptions
-- Add GUI theme customization or dark mode
-- Add keyboard shortcuts (e.g., Enter to add)
-
----
-
-## 📎 Requirements
-
-- Java 8 or higher
-- Any IDE (e.g., IntelliJ, Eclipse) or command-line environment
+| 개념 | 사용 예시 |
+|------|------------|
+| **GUI 프로그래밍** | Swing 컴포넌트(`JFrame`, `JTextField` 등) 사용 |
+| **이벤트 처리** | `ActionListener`를 이용한 버튼 클릭 이벤트 |
+| **실시간 타이머** | `javax.swing.Timer`로 매초 시계 갱신 |
+| **자료구조** | `ArrayList`로 동적 할 일 관리 |
+| **레이아웃 관리** | `BorderLayout`, `FlowLayout`을 이용한 UI 구성 |
+| **입력 검증** | `JOptionPane`으로 경고 다이얼로그 표시 |
 
 ---
 
-## ✅ How to Run
+## 📈 향후 개선 방향
 
-	1. Clone the repository or download the source file
-	2. Compile the Java file:
+- 할 일 수정 및 완료 표시 기능 추가  
+- 파일 입출력을 통한 데이터 저장 및 불러오기  
+- 검색 및 필터 기능 구현 (`ArrayList` 기반)  
+- 여러 줄 할 일 입력 지원  
+- 다크 모드 및 UI 테마 커스터마이징 추가  
+- 키보드 단축키 추가 (예: Enter로 할 일 추가)
 
+---
+
+## 📎 실행 환경
+
+- **Java 8** 이상  
+- **IntelliJ**, **Eclipse**, 또는 명령어 기반 실행 가능  
+
+---
+
+## ✅ 실행 방법
+
+1. 리포지토리를 클론하거나 소스 파일을 다운로드합니다.  
+2. 다음 명령어로 컴파일합니다:
+
+```bash
 javac TodoListApp.java
 
-	3. Run the program:
+	3.	프로그램을 실행합니다:
 
 java TodoListApp
+
+---
+
